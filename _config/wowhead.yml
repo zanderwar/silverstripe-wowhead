@@ -1,0 +1,12 @@
+---
+Name: vision6
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+
+Wowhead:
+  tooltips:
+    colorlinks: true # colors your label
+    iconizelinks: true # adds an icon to your label (this will be forced to false if renamelinks is false)
+    renamelinks: true # overrides your label

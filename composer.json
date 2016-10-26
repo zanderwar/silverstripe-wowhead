@@ -1,0 +1,32 @@
+{
+  "name": "zanderwar/silverstripe-wowhead",
+  "description": "",
+  "type": "silverstripe-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reece Alexander",
+      "email": "reece.alexander@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3,<7",
+    "silverstripe/cms": "^3.4.0",
+    "silverstripe/framework": "^3.4.0"
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.x-dev"
+    },
+    "installer-name": "wowhead"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/zanderwar/silverstripe-wowhead"
+    }
+  ]
+}
