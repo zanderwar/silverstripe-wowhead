@@ -18,9 +18,6 @@
   "prefer-stable": true,
   "minimum-stability": "dev",
   "extra": {
-    "branch-alias": {
-      "dev-master": "0.x-dev"
-    },
     "installer-name": "wowhead"
   },
   "repositories": [

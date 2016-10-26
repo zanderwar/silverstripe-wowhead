@@ -22,8 +22,13 @@ class WowheadTooltipExt
         }
 
         $type = (isset($arguments['type'])) ? $arguments['type'] : 'item';
+        $url = (Wowhead::config('tooltips', 'custom_url')) ? str_replace(array("{type}", "{id}"), array($type, $id), Wowhead::config('tooltips', 'custom_url')) : "//www.wowhead.com/{$type}={$id}";
 
-        return "<a href='//www.wowhead.com/{$type}={$id}'>{$content}</a>";
+        $rel = '';
+        if (!strstr($url, 'wowhead')) {
+            $rel = "rel='{$type}={$id}'";
+        }
+        return "<a href='$url'$rel>{$content}</a>";
 
     }
 }
