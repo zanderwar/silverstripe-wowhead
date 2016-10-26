@@ -1,5 +1,5 @@
 ---
-Name: vision6
+Name: wowhead
 After:
   - 'framework/*'
   - 'cms/*'
