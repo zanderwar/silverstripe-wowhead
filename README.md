@@ -6,7 +6,7 @@ Wowhead Item, Quest, Spell & Achievement Tooltips
 
 This module only supports installation via composer:
 
-`composer require steadlane/silverstripe-cloudflare`
+`composer require zanderwar/silverstripe-wowhead`
 
 Run /dev/build afterwards for SilverStripe to become aware of this extension
 
