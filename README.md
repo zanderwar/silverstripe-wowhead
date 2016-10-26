@@ -29,6 +29,26 @@ Wowhead:
     renamelinks: true # overrides your label
 ```
 
+## Short Codes
+
+### _**WHTooltip**_
+
+**Arguments:**
+- `id`: The Wowhead ID for the `type` you want a tooltip to display for.
+- `type`: Can be one of `item`, `achievement`, `spell` or `quest` (Default: `item`)
+
+**Optional Label:** Yes
+
+**Examples:**
+
+`[WHTooltip, id=277, type=achievement]'Tis the Season[/WHTooltip]`
+
+`[WHTooltip, id=25696]Felstalker Breastplate[/WHTooltip]`
+
+`[WHTooltip, id=49286]`
+
+![Imgur](http://i.imgur.com/1WPChSl.png)
+
 ## Contributing
 
 If you feel you can improve this module in any way, shape or form please do not hesitate to submit a PR for review.
