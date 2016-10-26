@@ -1,6 +1,6 @@
 {
   "name": "zanderwar/silverstripe-wowhead",
-  "description": "Wowhead Item, Quest, Spell & Achievement Tooltips ",
+  "description": "Wowhead Item, Quest, Spell & Achievement Tooltips",
   "type": "silverstripe-module",
   "version": "1.0.0",
   "license": "MIT",
