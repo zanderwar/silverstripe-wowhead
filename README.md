@@ -14,18 +14,20 @@ Run /dev/build afterwards for SilverStripe to become aware of this extension
 
 **wowhead/_config/wowhead.yml**
 
-    ---
-    Name: wowhead
-    After:
-      - 'framework/*'
-      - 'cms/*'
-    ---
+```yml
+---
+Name: wowhead
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
 
-    Wowhead:
-      tooltips:
-        colorlinks: true # colors your label
-        iconizelinks: true # adds an icon to your label (this will be forced to false if renamelinks is false)
-        renamelinks: true # overrides your label
+Wowhead:
+  tooltips:
+    colorlinks: true # colors your label
+    iconizelinks: true # adds an icon to your label (this will be forced to false if renamelinks is false)
+    renamelinks: true # overrides your label
+```
 
 ## Contributing
 
