@@ -22,8 +22,9 @@ class WowheadTooltipExt
         }
 
         $type = (isset($arguments['type'])) ? $arguments['type'] : 'item';
-        $url = (Wowhead::config('tooltips', 'custom_url')) ? str_replace(array("{type}", "{id}"), array($type, $id), Wowhead::config('tooltips', 'custom_url')) : "//www.wowhead.com/{$type}={$id}";
+        $locale = (Wowhead::config('tooltips', 'locale')) ? Wowhead::config('tooltips', 'locale') : NULL;
 
+        $url = (Wowhead::config('tooltips', 'custom_url')) ? str_replace(array("{type}", "{id}", "{locale}"), array($type, $id, $locale), Wowhead::config('tooltips', 'custom_url')) : "//" . ((!$locale) ? "www" : $locale) . ".wowhead.com/{$type}={$id}";
         $rel = '';
         if (!strstr($url, 'wowhead')) {
             $rel = "rel='{$type}={$id}'";
