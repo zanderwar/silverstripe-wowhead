@@ -28,6 +28,7 @@ Wowhead:
     iconizelinks: true # adds an icon to your label (this will be forced to false if renamelinks is false)
     renamelinks: true # overrides your label
     #custom_url: '//example.com/{type}/{id}' # {type} would be replaced by item, achievement, quest, or spell. {id} would be replaced with the ID
+    #locale: 'de' # I'm not sure if all locales are supported, you will have to find out yourself: http://de.wowhead.com
 ```
 
 Remove the hash in front of custom_url to use your own URL with the insight provided by its comment
