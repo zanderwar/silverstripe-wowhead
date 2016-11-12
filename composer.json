@@ -3,6 +3,11 @@
   "description": "Wowhead Item, Quest, Spell & Achievement Tooltips",
   "type": "silverstripe-module",
   "version": "1.1.0",
+  "keywords": [
+    "wow",
+    "world of warcraft",
+    "game"
+  ],
   "license": "MIT",
   "authors": [
     {
